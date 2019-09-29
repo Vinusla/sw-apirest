@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: vinicius
+Build-Jdk: 11.0.4
+Implementation-Title: apirest
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.recursoStarWars
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/apirest
+Created-By: Maven Integration for Eclipse
+

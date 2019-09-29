@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org"
+		xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+    <head>
+        <title> Aluguel de Livros </title>
+        <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </head>
+<meta charset="utf-8"/>
+
+    <body>
+        <div class="container">
+            <h1 align="center">Aluguel de Livros</h1>
+
+
+			<br/><br/><br/>
+            <a class="btn btn-primary" style="margin-bottom: 10px" th:href="@{/api/clientes}" >Listar Cliente</a>
+            <a class="btn btn-primary" style="margin-bottom: 10px" th:href="@{/api/livros}" >Listar Livro</a>
+            <a class="btn btn-primary" style="margin-bottom: 10px" th:href="@{/api/reserva}" >Reservar Livro</a>
+			
+			<br/><br/><br/>
+			
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        
+                        <th>Quantidade Cliente</th>
+                        <th>Quantidade Livros</th>
+                        <th>Quantidade Livros Reservados</th>                        
+                    </tr>
+                </thead>
+                <tbody>
+
+                
+                    <tr>
+                        <td th:text="${qtdClientes}"></td>
+						<td th:text="${qtdLivros}"></td>
+						<td th:text="${qtdLivrosReservados}"></td>
+						
+                        
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>

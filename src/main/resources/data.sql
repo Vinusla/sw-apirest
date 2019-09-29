@@ -1,0 +1,32 @@
+--delete from item
+--delete from inventario
+--delete from localizacao
+--delete from rebelde
+select * from rebelde
+--insert into inventario values(1,'inventario 1',0)
+--insert into inventario values(2,'inventario 2',0)
+--insert into localizacao values(1,'22','44','SWdistrito 1')
+--insert into localizacao values(2,'32','54','SWdistrito 2')
+--insert into localizacao values(3,'62','14','SWdistrito 3')
+--
+--insert into item values(1,'Arma','2','4',1)
+--insert into item values(2,'munição','10','3',2)
+--insert into item values(3,'Água','5','2',3)
+--insert into item values(4,'Comida','7','1',4)
+--
+--
+--insert into inventario values(1,3)
+--insert into inventario values(2,2)
+--insert into inventario values(3,1)
+--insert into inventario values(4,1)
+--
+--
+--
+--insert into localizacao values(1,'54','46','Hero')
+--insert into localizacao values(2,'55','47','Hero')
+--insert into localizacao values(3,'100','37','Hero')
+--insert into localizacao values(4,'100','37','Hero')
+--
+--insert into rebelde values(1,'Vinicius',34,'M',1,1)
+--insert into rebelde values(2,'Luisa',40,'F',2,2)
+--insert into rebelde values(3,'Carlos',20,'M',3,3)
