@@ -3,11 +3,11 @@ Desafio Phoebus
 
 Banco de dados H2
 
-Url: http://localhost:8091/h2/
-Campo JDBC URL: jdbc:h2:~/h2/recursoSW
-user name: h2sa
-password:
-(o campo password é vazio)
+Url: http://localhost:8091/h2/<br>
+Campo JDBC URL: jdbc:h2:~/h2/recursoSW<br>
+user name: h2sa<br>
+password:<br>
+(o campo password é vazio)<br>
 
 Endpoints da api
 
